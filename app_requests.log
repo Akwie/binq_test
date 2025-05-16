@@ -1,0 +1,66 @@
+2025-05-16 15:43:00,005 INFO: Flask application started. [in /Users/andykwie/projects/binq_test/main.py:23]
+2025-05-16 15:43:00,005 CRITICAL: API_TOKEN environment variable must be set. [in /Users/andykwie/projects/binq_test/main.py:32]
+2025-05-16 15:43:30,369 INFO: Flask application started. [in /Users/andykwie/projects/binq_test/main.py:23]
+2025-05-16 15:43:30,369 CRITICAL: API_TOKEN environment variable must be set. [in /Users/andykwie/projects/binq_test/main.py:32]
+2025-05-16 15:43:30,543 INFO: Flask application started. [in /Users/andykwie/projects/binq_test/main.py:23]
+2025-05-16 15:43:30,543 CRITICAL: API_TOKEN environment variable must be set. [in /Users/andykwie/projects/binq_test/main.py:32]
+2025-05-16 15:44:06,559 INFO: Incoming Request: POST http://localhost:8080/search [in /Users/andykwie/projects/binq_test/main.py:42]
+2025-05-16 15:44:06,559 INFO: Request Headers: Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 94
+
+ [in /Users/andykwie/projects/binq_test/main.py:43]
+2025-05-16 15:44:06,560 INFO: Request JSON Body: {'query': '', 'filters': {'BN_STATUS': 'Registered'}, 'limit': 10} [in /Users/andykwie/projects/binq_test/main.py:48]
+2025-05-16 15:44:06,560 INFO: '/search' endpoint called. [in /Users/andykwie/projects/binq_test/main.py:61]
+2025-05-16 15:44:06,560 INFO: Searching CKAN with: resource_id='55ad4b1c-5eeb-44ea-8b29-d410da431be3', query='', filters={'BN_STATUS': 'Registered'}, limit=10 [in /Users/andykwie/projects/binq_test/main.py:79]
+2025-05-16 15:44:07,311 INFO: CKAN search successful. Records found: 10 [in /Users/andykwie/projects/binq_test/main.py:90]
+2025-05-16 15:44:25,721 INFO: Incoming Request: POST http://localhost:8080/search [in /Users/andykwie/projects/binq_test/main.py:42]
+2025-05-16 15:44:25,722 INFO: Request Headers: Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 94
+
+ [in /Users/andykwie/projects/binq_test/main.py:43]
+2025-05-16 15:44:25,722 INFO: Request JSON Body: {'query': '', 'filters': {'BN_STATUS': 'Registered'}, 'limit': 10} [in /Users/andykwie/projects/binq_test/main.py:48]
+2025-05-16 15:44:25,722 INFO: '/search' endpoint called. [in /Users/andykwie/projects/binq_test/main.py:61]
+2025-05-16 15:44:25,722 INFO: Searching CKAN with: resource_id='55ad4b1c-5eeb-44ea-8b29-d410da431be3', query='', filters={'BN_STATUS': 'Registered'}, limit=10 [in /Users/andykwie/projects/binq_test/main.py:79]
+2025-05-16 15:44:26,370 INFO: CKAN search successful. Records found: 10 [in /Users/andykwie/projects/binq_test/main.py:90]
+2025-05-16 15:45:10,225 INFO: Incoming Request: POST http://localhost:8080/search [in /Users/andykwie/projects/binq_test/main.py:42]
+2025-05-16 15:45:10,225 INFO: Request Headers: Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 94
+
+ [in /Users/andykwie/projects/binq_test/main.py:43]
+2025-05-16 15:45:10,225 INFO: Request JSON Body: {'query': '', 'filters': {'BN_STATUS': 'Registered'}, 'limit': 10} [in /Users/andykwie/projects/binq_test/main.py:48]
+2025-05-16 15:45:10,226 INFO: '/search' endpoint called. [in /Users/andykwie/projects/binq_test/main.py:61]
+2025-05-16 15:45:10,226 INFO: Searching CKAN with: resource_id='55ad4b1c-5eeb-44ea-8b29-d410da431be3', query='', filters={'BN_STATUS': 'Registered'}, limit=10 [in /Users/andykwie/projects/binq_test/main.py:79]
+2025-05-16 15:45:10,743 INFO: CKAN search successful. Records found: 10 [in /Users/andykwie/projects/binq_test/main.py:90]
+2025-05-16 15:46:11,549 INFO: Incoming Request: POST http://localhost:8080/search [in /Users/andykwie/projects/binq_test/main.py:42]
+2025-05-16 15:46:11,550 INFO: Request Headers: Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 120
+
+ [in /Users/andykwie/projects/binq_test/main.py:43]
+2025-05-16 15:46:11,550 INFO: Request JSON Body: {'query': '', 'filters': {}, 'resource_id': '41299f46-5c00-41b4-82fc-43edac405b34', 'limit': 10} [in /Users/andykwie/projects/binq_test/main.py:48]
+2025-05-16 15:46:11,550 INFO: '/search' endpoint called. [in /Users/andykwie/projects/binq_test/main.py:61]
+2025-05-16 15:46:11,550 INFO: Searching CKAN with: resource_id='41299f46-5c00-41b4-82fc-43edac405b34', query='', filters={}, limit=10 [in /Users/andykwie/projects/binq_test/main.py:79]
+2025-05-16 15:46:11,938 INFO: CKAN search successful. Records found: 10 [in /Users/andykwie/projects/binq_test/main.py:90]
+2025-05-16 15:47:14,766 INFO: Incoming Request: POST http://localhost:8080/search [in /Users/andykwie/projects/binq_test/main.py:42]
+2025-05-16 15:47:14,766 INFO: Request Headers: Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 120
+
+ [in /Users/andykwie/projects/binq_test/main.py:43]
+2025-05-16 15:47:14,766 INFO: Request JSON Body: {'query': '', 'filters': {}, 'resource_id': '41299f46-5c00-41b4-82fc-43edac405b34', 'limit': 10} [in /Users/andykwie/projects/binq_test/main.py:48]
+2025-05-16 15:47:14,766 INFO: '/search' endpoint called. [in /Users/andykwie/projects/binq_test/main.py:61]
+2025-05-16 15:47:14,766 INFO: Searching CKAN with: resource_id='41299f46-5c00-41b4-82fc-43edac405b34', query='', filters={}, limit=10 [in /Users/andykwie/projects/binq_test/main.py:79]
+2025-05-16 15:47:14,941 INFO: CKAN search successful. Records found: 10 [in /Users/andykwie/projects/binq_test/main.py:90]
