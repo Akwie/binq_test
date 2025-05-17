@@ -64,3 +64,5 @@ Content-Length: 120
 2025-05-16 15:47:14,766 INFO: '/search' endpoint called. [in /Users/andykwie/projects/binq_test/main.py:61]
 2025-05-16 15:47:14,766 INFO: Searching CKAN with: resource_id='41299f46-5c00-41b4-82fc-43edac405b34', query='', filters={}, limit=10 [in /Users/andykwie/projects/binq_test/main.py:79]
 2025-05-16 15:47:14,941 INFO: CKAN search successful. Records found: 10 [in /Users/andykwie/projects/binq_test/main.py:90]
+2025-05-16 15:48:39,698 INFO: Flask application started. [in /Users/andykwie/projects/binq_test/main.py:23]
+2025-05-16 15:48:39,698 CRITICAL: API_TOKEN environment variable must be set. [in /Users/andykwie/projects/binq_test/main.py:32]

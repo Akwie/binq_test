@@ -1,10 +1,10 @@
-FROM python:3.9-slim-buster
+FROM python:3.12-slim-bookworm
 
 WORKDIR /app
 
 COPY requirements.txt /app/
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY main.py /app/
 # Expose the port that your application will listen on (Cloud Run/GCP)
