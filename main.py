@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-# --- Logging Configuration ---
+# Logging setup
 log_file = 'app_requests.log'
 # set max size of log file to 10MB and keep 5 backup files
 file_handler = RotatingFileHandler(log_file, maxBytes=10*1024*1024, backupCount=5)
@@ -21,7 +21,7 @@ app.logger.addHandler(file_handler)
 app.logger.setLevel(logging.INFO)
 
 app.logger.info('Flask application started.')
-# --- End Logging Configuration ---
+
 
 # env variables
 API_TOKEN = os.environ.get("API_TOKEN")
@@ -35,7 +35,7 @@ if not API_TOKEN:
 # Default resource_id if not provided in the request
 DEFAULT_RESOURCE_ID = "55ad4b1c-5eeb-44ea-8b29-d410da431be3"
 
-# Middleware to log every request before it's processed
+# Log request before sent to api
 @app.before_request
 def log_request_info():
     """Logs information about the incoming request."""
