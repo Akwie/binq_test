@@ -1,4 +1,4 @@
-# CKAN Search API Documentation
+# Search API Documentation
 
 This document provides instructions on how to set up, run, and use the CKAN Search API. This API acts as a proxy to interact with a CKAN data portal (e.g., data.gov.au) to search for records within specific datasets.
 
