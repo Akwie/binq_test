@@ -11,8 +11,8 @@ import pandas as pd
 CSV_URL = "https://data.gov.au/data/dataset/bc515135-4bb6-4d50-957a-3713709a76d3/resource/55ad4b1c-5eeb-44ea-8b29-d410da431be3/download/business_names_202505.csv"
 
 
-DATABRICKS_CATALOG = "deputy" 
-DATABRICKS_SCHEMA = "akwie_playground"     
+DATABRICKS_CATALOG = {Your Catalog Name}
+DATABRICKS_SCHEMA = {you schema}    
 DATABRICKS_TABLE_NAME = "business_names_australia"
 
 
